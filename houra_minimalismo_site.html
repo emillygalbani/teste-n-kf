@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hóura do minimalismo</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;600&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #0f0f0f;
+            color: #f5f5f5;
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            padding: 2rem;
+        }
+
+        h1, h2 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .section {
+            max-width: 700px;
+            margin: 3rem auto;
+            padding: 2rem;
+            background-color: #1a1a1a;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+            animation: fadeIn 1.2s ease;
+        }
+
+        .highlight {
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        .italic {
+            font-style: italic;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 2rem;
+            padding: 0.75rem 2rem;
+            background-color: #4d665c;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: background 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #385044;
+        }
+
+        ul {
+            list-style: none;
+            margin-top: 1rem;
+        }
+
+        ul li {
+            margin-bottom: 1rem;
+            position: relative;
+            padding-left: 1.5rem;
+        }
+
+        ul li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #8fbf9f;
+        }
+
+        .negativo li::before {
+            content: "×";
+            color: #bf8f8f;
+        }
+
+        @keyframes fadeIn {
+            from {opacity: 0; transform: translateY(20px);}
+            to {opacity: 1; transform: translateY(0);}
+        }
+    </style>
+</head>
+<body>
+    <div class="section">
+        <h1>A VERDADE QUE TE DISTANCIARAM:</h1>
+        <p>A raiz da sua desorganização <span class="highlight">não é a falta de esforço.</span></p>
+        <p>É a ausência de <span class="italic">sintonia com o essencial.</span></p>
+        <p><span class="highlight">É excesso de ruído.</span> É dispersão disfarçada de produtividade. É tentar se encontrar, sem antes se esvaziar.</p>
+        <p><strong>a hóura do minimalismo</strong> não te entrega promessas.<br>Ela revela o que te resta <span class="italic">quando tudo o que pesa sai.</span></p>
+        <a href="#" class="button">Quero conhecer a hóura</a>
+    </div>
+
+    <div class="section negativo">
+        <h2>Sua rotina HOJE sem a hóura:</h2>
+        <ul>
+            <li>Acorda com a mente agitada, sem direção.</li>
+            <li>Alterna entre picos de produtividade e bloqueios.</li>
+            <li>Cobra-se por não render, mas não sabe o porquê.</li>
+            <li>Dorme com a sensação de estar sempre devendo.</li>
+        </ul>
+        <p><strong>Resultado:</strong><br>Mais um dia pesado, mesmo que “cheio de coisas feitas”.<br><span class="italic">E amanhã... igual.</span></p>
+    </div>
+
+    <div class="section">
+        <h2>Sua rotina COM a hóura:</h2>
+        <ul>
+            <li>Acorda leve, com clareza do que importa.</li>
+            <li>Sente progresso real, mesmo em dias silenciosos.</li>
+            <li>Energia vai para o que sustenta sua essência.</li>
+            <li>Tem uma rotina disciplinada sem rigidez.</li>
+        </ul>
+    </div>
+</body>
+</html>

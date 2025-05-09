@@ -1,0 +1,156 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8f8f5;
+  color: #1c1c1c;
+  font-family: 'Georgia', serif;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f8f8f5;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e2e2dc;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  font-weight: normal;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #1c1c1c;
+  font-size: 0.95rem;
+  text-transform: lowercase;
+}
+
+main {
+  padding-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 100px 20px 60px;
+}
+
+.titulo {
+  font-size: 2.7rem;
+  letter-spacing: 1px;
+  text-transform: lowercase;
+  font-weight: normal;
+}
+
+.subtitulo {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #7a7a7a;
+  max-width: 500px;
+}
+
+section {
+  padding: 80px 20px;
+  border-top: 1px solid #e2e2dc;
+}
+
+.conteudo {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  text-transform: lowercase;
+  margin-bottom: 20px;
+  color: #1a1a1a;
+}
+
+p {
+  font-size: 1rem;
+  color: #3a3a3a;
+  line-height: 1.7;
+  white-space: pre-line;
+}
+
+.botao {
+  background-color: transparent;
+  border: 1px solid #1a1a1a;
+  color: #1a1a1a;
+  padding: 10px 24px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  text-transform: lowercase;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.botao:hover {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.frases blockquote {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #2f2f2f;
+  margin: 20px 0;
+  text-align: center;
+  position: relative;
+}
+
+.agendamento form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.agendamento input,
+.agendamento textarea {
+  padding: 10px;
+  font-size: 0.95rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.agendamento button {
+  padding: 10px;
+  font-size: 0.95rem;
+  text-transform: lowercase;
+  background-color: #1a1a1a;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.agendamento button:hover {
+  background-color: #333;
+}
+
+.footer {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #8a8a8a;
+  border-top: 1px solid #eaeaea;
+}
